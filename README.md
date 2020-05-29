@@ -32,11 +32,11 @@ Before enabling Neon.
 
 Step 1. Set your active color theme to __VenusTheme__. 
 
-Step 2. Go to __settings.json__ then add 
+Step 2. Go to __settings.json__ then copy this two line below and paste in your settings.
 
    ```json
-       "vscode_custom_css.imports": ["add the url here"],   
-       "vscode_custom_css.policy": true,
+    "vscode_custom_css.imports": ["https://raw.githubusercontent.com/Acrenactive/VenusTheme/master/themes/venus.css"],
+    "vscode_custom_css.policy": true,
    ```
  - **Windows File URL Example**: `file:///C:/Users/MyUserName/Documents/custom.css`
 
