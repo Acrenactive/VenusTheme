@@ -28,7 +28,7 @@ VS code doesn't natively support text effects and as a result, It's likely to be
 You will need have the __Custom CSS and JS extension__ to enable the neon. 
 Before enabling Neon.
 
-#### Step 1. Set your active color theme to __VenusTheme__. 
+##### Step 1. Set your active color theme to __VenusTheme__. 
 
 #### Step 2. Download the Custom CSS and JS extension [Link to Custom CSS and JS extension](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css). (Recommended to restart the vs code after installation of the plugin.)
 
