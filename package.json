@@ -1,0 +1,23 @@
+{
+    "name": "venustheme",
+    "displayName": "Venus Theme",
+    "description": "Universe color on your screen with neon dreams.",
+    "version": "0.9.3",
+    "author": "Sener Nilsson",
+    "publisher": "Anciaveus",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "VenusTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/VenusTheme-color-theme.json"
+            }
+        ]
+    }
+}

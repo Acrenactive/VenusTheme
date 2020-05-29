@@ -1,0 +1,113 @@
+.mtk6 {
+  color: #fdfdfd;
+  text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+}
+  
+
+
+  .mtk3 { 
+    color: #6d77b3;
+  }
+  
+  .mtk4 {
+    color:   #83eb5b;
+    text-shadow: 0 0 1.2px #78e74c, 0 0 1px #78e74c;
+  }
+  
+  .mtk10 {
+ color: #ffdf75;
+text-shadow: 0 0 2px #f8004ab0, 0 0 5px #480f9433, 0 0 7px rgba(192, 55, 255, 0.801);
+}
+  
+  .mtk7,.mtk9 {
+    color: #fff5f6;
+    text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
+  }
+  
+  .mtk11 {
+    color: #72f1b8;
+    text-shadow: 0 0 2px #100c0f, 0 0 10px #257c5575, 0 0 35px #b6680f75;
+  }
+  
+  .mtk8,.mtk14 {
+    color: #f4eee4;
+    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+  }
+  
+  .monaco-editor .margin, .monaco-editor .inputarea.ime-input {
+    background: transparent;
+  }
+  
+  /* Add the subtle gradient to the editor background */
+  .monaco-editor {
+    background-color: transparent !important;
+    background-image: linear-gradient(to bottom, #0b0d16ff 75%, #0b0d16ff);
+    background-size: auto 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  
+  /* Sweet sunset dots */
+  .monaco-workbench .activitybar>.content .monaco-action-bar .badge .badge-content {
+    background: linear-gradient(to bottom, #fff951 25%, #6dfd0c);
+  }
+  
+  /* Active tab neon */
+  .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active {
+    box-shadow: inset 0 -5px 25px #0b0d16ff;
+    position: relative;
+  }
+  
+  /* Active tab stripe */
+  .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(to right, #6dfd0c, #03edf9) !important;
+    opacity: 1;
+    z-index: 6;
+  }
+  
+  .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 0px;
+    transition: opacity 1s;
+    opacity: 0;
+    z-index: 6;
+  }
+  
+  /* Active sidebar item */
+  .monaco-workbench .activitybar>.content .monaco-action-bar .action-item.checked {
+    box-shadow: inset 0 -5px 25px #0b0d16ff;
+    position: relative;
+  }
+  
+  .monaco-workbench .activitybar>.content .monaco-action-bar .action-item.checked::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    width: 4px;
+    background: linear-gradient(to bottom, #6dfd0c, #03edf9) !important;
+    opacity: 1;
+  }
+  
+  .monaco-workbench .activitybar>.content .monaco-action-bar .action-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    transition: opacity 1s;
+    opacity: 0;
+  }
+  
