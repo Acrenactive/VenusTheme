@@ -35,8 +35,7 @@ Before enabling Neon.
 #### [Go to Settings.json]
 ##### Step 4. Down in the left corner you see a wheel, click on it!. Then click on _Settings_, after that it should appear a new page with diffrent options. Click on extension. Find the Custom CSS and JS extension then click on it. Now click on the settings.json button under the __Vscode_custom_css: ImportsCustom CSS/JS files, as an array of URLs, not file paths__ and paste in the line you see down below.
 
-#### [Go to Settings.json]
-##### Step 5. [If you did follow the beginner friendly step four then you dont need this step.) Go to __settings.json__ then copy this two line below and paste in your settings.
+##### Step 5. [If you did follow the beginner friendly step four then you dont need this step.] Go to __settings.json__ then copy this two line below and paste in your settings.
 
    ```json
     "vscode_custom_css.imports": ["https://raw.githubusercontent.com/Acrenactive/VenusTheme/master/themes/venus.css"],
