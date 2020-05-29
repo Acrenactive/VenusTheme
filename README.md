@@ -38,9 +38,6 @@ Step 2. Go to __settings.json__ then copy this two line below and paste in your 
     "vscode_custom_css.imports": ["https://raw.githubusercontent.com/Acrenactive/VenusTheme/master/themes/venus.css"],
     "vscode_custom_css.policy": true,
    ```
- - **Windows File URL Example**: `file:///C:/Users/MyUserName/Documents/custom.css`
-
- - **MacOS and Linux File URL Example**: `file:///Users/MyUserName/Documents/custom.css`
  - [See here](https://en.wikipedia.org/wiki/File_URI_scheme) for more details.
 
 Step 3. Open your command palette with `Ctrl + Shift + P` or `Shift + ⌘ + P` and choose "__Enable Custom CSS and JS__". It will prompt you to restart, and after the restart you should have the lights on :)
